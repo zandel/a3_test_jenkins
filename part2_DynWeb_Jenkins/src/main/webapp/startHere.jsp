@@ -22,7 +22,7 @@
 </ul>
 </nav>
 
-<h2>A ShowCase Dynamic Web Application!</h2>
+<h2>A ShowCase Dynamic *** Web Application ****</h2>
 
 <form method="post" action="EnterRateQuery">
 

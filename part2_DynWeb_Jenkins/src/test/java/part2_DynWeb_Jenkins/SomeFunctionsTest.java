@@ -17,7 +17,7 @@ public class SomeFunctionsTest extends TestCase {
 		obj = null;
 	}
 
-	public void testFunction_1() {
+	public void testFunction_1()   {
 		assertEquals( 300, obj.function_1(445)   );
 	}
 

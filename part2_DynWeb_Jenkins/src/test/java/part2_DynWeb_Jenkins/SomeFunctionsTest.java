@@ -18,11 +18,11 @@ public class SomeFunctionsTest extends TestCase {
 	}
 
 	public void testFunction_1() {
-		assertEquals( 543543, obj.function_1(445)   );
+		assertEquals( 300, obj.function_1(445)   );
 	}
 
 	public void testFunction_2() {
-		assertEquals( "WERRT", obj.function_2(445)   );
+		assertEquals( "ABCDE", obj.function_2(445)   );
 	}
 
 }

@@ -24,11 +24,19 @@
 
 <h2>A ShowCase Dynamic *** Web Application ****</h2>
 
-<form method="post" action="EnterRateQuery">
 
-<input type="submit" value="OK" name="OK">
+<form id="myForm" action="CallTwoFunctions" method="post">
+
+Enter An Integer:  <input type="text" id="registration"  name="registration"  > <br/> <br/>
+<br/>
+
+<input id="mySubmit" type="submit" value="Call Functions" style="margin-left=100px;">
+<input id="myReset" type="Reset">
+
+<br>
 
 </form>
+
 
 </body>
 

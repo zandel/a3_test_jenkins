@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CallTwoFunctions</servlet-name>
+  	<display-name>CallTwoFunctions</display-name>
+  	<description></description>
+  	<servlet-class>CallTwoFunctions</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FunctionReceipt</servlet-name>
+  	<display-name>FunctionReceipt</display-name>
+  	<description></description>
+  	<servlet-class>FunctionReceipt</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CallTwoFunctions</servlet-name>
+  	<url-pattern>/CallTwoFunctions</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FunctionReceipt</servlet-name>
+  	<url-pattern>/FunctionReceipt</url-pattern>
+  </servlet-mapping>
 </web-app>
